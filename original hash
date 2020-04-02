@@ -1,0 +1,11 @@
+https://spectrum.ieee.org/tech-history/silicon-revolution/hans-peter-luhn-and-the-birth-of-the-hashing-algorithm
+uhn’
+s handheld computer did that, using a checksum algorithm he developed. For a 10-digit number, the computer would perform the following steps:
+
+    Double every second digit
+    If any result is 10 or greater, add up the digits of that result to get a single-digit number (for example, “16” would become 1 + 6 = 7)
+    Add up all 10 digits of the new number
+    Multiply by 9
+    Take the last digit of that result
+
+This recipe produced a single-digit “check” number. In Luhn’s original formulation, a 0 indicated the original number was valid. In later versions, the check was simply appended to the original number as a final digit, so that you could easily verify that the final digit matched the check number produced by his machine. The underlying sequence of calculations, now known as the modulus 10 algorithm, is still widely used. The International Mobile Equipment Identity (IMEI) numbers assigned to cellular phones are verified in this way.

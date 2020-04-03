@@ -1,0 +1,11 @@
+1. single errors:
+abecomesb(60% to 95% of all errors)
+2. omitting or adding a digit (10% to 20%)
+3. adjacent transpositions:abbecomesba(10% to 20%)
+4. twin errors:aabecomesbb(0.5% to 1.5%)
+5. jump transpositions:acbbecomesbca(0.5% to 1.5%)
+6. jump twin errors:acabecomesbcb(below 1%, lower for longer jumps)
+7. phonetic errors:a0becomes1a, since the two have similar pronunciations in some languages, e.g.thirty and thirteen (0.5% to 1.5%)
+
+A more detailed analysis and categorization of the sort of errors incurred when dealing with numbers wasreported by J. Verhoeff(Error Detecting Decimal Codes, Mathematical Centre Tract 29, 
+The MathematicalCentre, Amsterdam, 1969) based on a study of 12000 errors:
